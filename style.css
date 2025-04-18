@@ -1,0 +1,202 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+ 
+/* --- HEADER --- */
+header {
+    display: flex; /* ✅ Modification : flex container */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* ✅ Modification : ajout de marge interne */
+    margin-bottom: 20px;
+}
+ 
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+ 
+/* --- NAVIGATION --- */
+nav {
+    display: flex; /* ✅ Modification : flex container */
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px;
+    justify-content: space-between;
+}
+ 
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+ 
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 20px;    /* ✅ Modification : marge externe en haut */
+    margin-bottom: 20px; /* ✅ Modification : marge externe en bas */
+}
+ 
+p {
+    font-size: 24px;
+}
+ 
+/* --- SECTION INFO --- */
+.info {
+    display: flex;       /* ✅ Modification : flex container */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto 40px auto; /* ✅ Modification : centrer le bloc */
+}
+ 
+/* --- ARTICLES --- */
+article {
+    background-color: white;
+    padding: 15px; /* ✅ Modification : marge interne */
+    width: 400px;
+    margin: 15px;  /* ✅ Modification : marge externe (espacement entre articles) */
+}
+ 
+/* --- BOUTONS DES ARTICLES --- */
+.article-but {
+    display: inline-block;
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px;
+}
+ 
+/* --- FOOTER --- */
+footer {
+    display: flex;            /* ✅ Modification : flex container */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;                /* ✅ Modification : espacement entre les éléments */
+    background-color: white;
+    padding: 20px;            /* ✅ Modification : marge interne */
+    flex-wrap: wrap;
+}
+ 
+footer a img {
+    width: 80px;
+    height: 80px;
+}
+ 
+footer p {
+    font-size: 24px;
+    text-align: center;
+}
+///////////////////////////////Exercice 4 : //////////////////////////////////
+body {
+    font-family: sans-serif;
+    background-color: black; /* ✅ Exercice 4 : Changement du fond en noir */
+}
+ 
+/* ---------- HEADER ---------- */
+header {
+    display: flex; /* ✅ Exercice 1 : Transformation en conteneur flex */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+ 
+.button {
+    background-color: #36bbce; /* ✅ Exercice 4 : Couleur du bouton selon le modèle */
+    color: white;              /* ✅ Exercice 4 : Texte blanc sur fond coloré */
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+ 
+/* ---------- NAVIGATION ---------- */
+nav {
+    display: flex; /* ✅ Exercice 1 : Transformation en conteneur flex */
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px;
+    justify-content: space-between;
+}
+ 
+.nav-link {
+    font-size: 24px;
+    color: white; /* ✅ Exercice 4 : Texte blanc sur fond noir */
+    text-decoration: none;
+    margin-right: 20px;
+}
+ 
+/* ---------- TITRE PRINCIPAL ---------- */
+h1 {
+    text-align: center;
+    color: white;  /* ✅ Exercice 4 : Texte blanc */
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+/* ---------- TEXTE PARAGRAPHE ---------- */
+p {
+    font-size: 24px;
+    color: white; /* ✅ Exercice 4 : Texte blanc sur fond noir */
+}
+ 
+/* ---------- SECTION INFO ---------- */
+.info {
+    display: flex; /* ✅ Exercice 1 : Transformation en conteneur flex */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto 40px auto;
+}
+ 
+article {
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    margin: 15px; /* ✅ Exercice 2 : Marge extérieure entre les articles */
+    color: black; /* ✅ Texte noir sur fond blanc (pas besoin de blanc ici) */
+}
+ 
+.article-but {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #888888; /* ✅ Exercice 4 : Couleur de bouton selon modèle */
+    color: white;              /* ✅ Exercice 4 : Texte blanc sur bouton gris */
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px;
+}
+ 
+/* ---------- FOOTER ---------- */
+footer {
+    display: flex; /* ✅ Exercice 1 : Transformation en conteneur flex */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #222222; /* ✅ Exercice 4 : Couleur du footer selon le modèle */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+ 
+footer a img {
+    width: 80px;
+    height: 80px;
+}
+ 
+footer p {
+    font-size: 24px;
+    color: white; /* ✅ Exercice 4 : Texte blanc dans le footer */
+    text-align: center;
+}
